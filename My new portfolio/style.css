@@ -270,7 +270,12 @@ ol {
 
 #projects {
     width: 100%;
-    padding-top: 5%;
+    margin-top: 5%;
+    margin: auto;
+    /* background-image: url(./images/logo2.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; */
 }
 
 .projects_header {
