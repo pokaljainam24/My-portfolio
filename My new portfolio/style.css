@@ -279,20 +279,19 @@ ol {
 #projects {
     width: 100%;
     height: 400px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     margin-top: 10%;
     background-image: url(./images/particle.gif);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    border-radius: 50px;
 }
 
 .projects_header {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 10px;
     color: greenyellow;
 }
 
@@ -320,7 +319,7 @@ ol {
 }
 
 .project-contant {
-    width: 40%;
+    width: 30%;
 }
 
 .project-contant>h3 {
