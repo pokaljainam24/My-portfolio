@@ -45,13 +45,11 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    /* padding-top: 20px; */
     margin: auto;
     background: #fafafa;
     background-image: url(./images/sadsxxa_10.jpg);
     background-position: center;
     background-size: cover;
-    backdrop-filter: blur(4px);
 }
 
 .logo {
@@ -193,6 +191,12 @@ button:hover {
 ol {
     gap: 1rem;
     margin-bottom: 10px;
+    /* padding: 10px; */
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .social-icon{
@@ -221,7 +225,9 @@ ol {
 /* --------------------------------------------------------------------skills-------------------------------------------------------------------------- */
 
 #main-box{
-    background-color: #1a1a1a;
+    background-image: url(./images/blue-smooth-wall-textured-background.jpg);
+    background-position: center;
+    background-size: cover;
     margin-top: 10%;
 }
 
@@ -319,7 +325,7 @@ ol {
 }
 
 .project-contant {
-    width: 30%;
+    width: 40%;
 }
 
 .project-contant>h3 {
@@ -646,7 +652,9 @@ ol {
 
 
 footer {
-    background-color: #333;
+    background-image: url(./images/blue-smooth-wall-textured-background.jpg);
+    background-position: center;
+    background-size: cover;
     color: #fff;
     margin: 30px 0;
 }
@@ -681,7 +689,7 @@ footer {
 }
 
 .footer-icon>ul>i:hover{
-    color: rgb(0, 239, 40);
+    color: rgb(16, 239, 0);
     transition: scale(-0.5, 1);
     cursor: pointer;
 }
