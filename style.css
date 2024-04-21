@@ -42,6 +42,7 @@ body {
     position: fixed;
     top: 0%;
     width: 100%;
+    z-index: 10;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -447,11 +448,12 @@ ol {
 
 
 #sectio {
-    width: 100%;
-    padding: 10px;
+    width: 90%;
+    /* padding: 10px; */
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: auto;
 }
 
 .box-1 {
@@ -547,8 +549,8 @@ ol {
     height: auto;
     padding: 10px;
     border-radius: 0px 30px 30px 0px;
-    background: #081b29;
-    border: 2px solid black;
+    background: #00000000;
+    border: 1px solid rgba(0, 0, 0, 0.808);
     box-shadow: inset 8px 8px 8px #000000f1, inset -8px -8px 8px #000000;
 }
 
