@@ -105,7 +105,7 @@ button {
 
 button:hover {
     background: black;
-    color: greenyellow;
+    color: skyblue;
     cursor: pointer;
 }
 
@@ -140,7 +140,7 @@ button:hover {
 }
 
 .intro>:nth-child(2) {
-    color: rgb(10, 229, 87);
+    color: rgb(10, 167, 229);
 }
 
 .my-img {
@@ -168,11 +168,11 @@ button:hover {
 
 #about h2 {
     text-align: center;
-    color: greenyellow;
+    color: rgba(172, 255, 47, 0.699);
 }
 
 #about>div {
-    width: 80%;
+    width: 50%;
     margin: auto;
     padding-top: 5%;
 }
@@ -184,15 +184,16 @@ button:hover {
 }
 
 .about-txt {
+    width: fit-content;
     font-size: 15px;
     padding-top: 20px;
-    justify-content: space-between;
+    text-align: center;
 }
 
 ol {
     gap: 1rem;
     margin-bottom: 10px;
-    /* padding: 10px; */
+    margin-left: 60px;
     width: 80%;
     display: flex;
     flex-direction: column;
